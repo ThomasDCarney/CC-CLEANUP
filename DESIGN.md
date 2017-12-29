@@ -34,4 +34,8 @@ Error when...
   - T, N or M are outside their respective bounds.
   - Values provided are of incorrect type.
 	
-## UML
+## Initial Diagrams
+
+This is an initial design, exact process, methods, names, etc may change but it's what we'll build from. 
+
+![Initial Design PNG](InitialDesign-UML.png)
