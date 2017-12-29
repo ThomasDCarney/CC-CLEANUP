@@ -10,19 +10,28 @@ The cooks logged which jobs they finished before they left. Unfortunately, these
 
 ## Input
 
-### T = Num Test Cases 
-### N = Num Jobs Total
-### M = Num Jobs Already Finished
+### Values
 
-* T (T <= 50)
-* Case1 (N M (0 <= N <= M <= 1000))
-* Case1 (M1 M2 ... MM)
-* Case2 (N M (0 <= N <= M <= 1000))
-* Case2 (M1 M2 ... MM)
+* T = Num Test Cases
+* N = Num Jobs Total
+* M = Num Jobs Already Finished 
+
+### Restrictions
+
+* T <= 50
+* 0 <= N <= M <= 1000
+
+### Format
+
+* T 
+* Case1: N M
+* Case1: M1 M2 ... MM
+* Case2: N M
+* Case2: M1 M2 ... MM
 * ...
 * ...
-* CaseT (N M (0 <= N <= M <= 1000))
-* CaseT (M1 M2 ... MM)
+* CaseT: (N M (0 <= N <= M <= 1000))
+* CaseT: (M1 M2 ... MM)
 
 ## Output
 
@@ -31,6 +40,7 @@ Each test case will produce two lines, the first is a list of jobs for the Chef,
 ## Example
 
 ### Input:
+
 * 3
 * 6 3
 * 2 4 1
@@ -40,6 +50,7 @@ Each test case will produce two lines, the first is a list of jobs for the Chef,
 * 3 8
 
 ### Output:
+
 * 3 6
 * 5
 * 1
