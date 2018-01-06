@@ -39,3 +39,11 @@ Error when...
 This is an initial design, exact process, methods, names, etc may change but it's what we'll build from. 
 
 ![Initial Design PNG](InitialDesign-UML.png)
+
+## Final Product
+
+Below is UML of the final class which has some of the expected changes. I added constant values to represent constraints, broke up and added some helper methods. Mostly so some bigger methods could be more readable and focused.
+
+Otherwise I experimented a bit... For CodeChef, you get a single file and the assumption is input will be perfect so still not sure the best way to handle errors. I'll work on a more uniform way to do it, especially using GIT but the submission worked, actually faster than most Java submissions so happy about that.
+
+![Final Design PNG](FinalDesign-UML.png)
